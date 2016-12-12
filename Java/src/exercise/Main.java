@@ -19,12 +19,12 @@ public class Main {
 		int S = 0;
 		int H = 0;
 		int x = getNumberFromUser();
+
 		while (x != -1){
 			if (x > H){
 				S = H;
 				H = x;
-			}
-			else if  (x > S){
+			} else if  (x > S){
 				S = x;
 			}
 			//System.out.print("H = ");
