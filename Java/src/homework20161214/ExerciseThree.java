@@ -17,7 +17,7 @@ public class ExerciseThree {
 			// currentArray.length);
 			printSelectedCard(i, currentArray);
 			currentArray = createArrayOfIntegers(currentArray, i);
-			printCurrentArray(currentArray);
+			//printCurrentArray(currentArray);
 			currentArraySize--;
 		}
 
