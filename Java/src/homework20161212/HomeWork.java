@@ -1,6 +1,5 @@
 package homework20161212;
 
-import java.awt.SystemColor;
 import java.util.Scanner;
 
 public class HomeWork {
