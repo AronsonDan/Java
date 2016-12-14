@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class HomeWork {
 
-	private static Scanner returnScanner;
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int numberFromUser = getNumberFromUser();
@@ -22,7 +20,7 @@ public class HomeWork {
 	private static void isWeekDay(int numberFromUser) {
 
 		// TODO Auto-generated method stub
-		//System.out.println("isWeekDay has been invoked");
+		// System.out.println("isWeekDay has been invoked");
 		if (numberFromUser <= 7 & numberFromUser > 0) {
 			if (numberFromUser >= 1 & numberFromUser <= 5) {
 				System.out.println("The given number represents a weekday");
@@ -52,9 +50,9 @@ public class HomeWork {
 		return ReturnNumber;
 	}
 
+	@SuppressWarnings("resource")
 	private static int extracted() {
-		returnScanner = new Scanner(System.in);
-		return returnScanner.nextInt();
+		return new Scanner(System.in).nextInt();
 	}
 
 	public static String printToConsole(int ExerciseNumber, int Number1, int Number2) {
@@ -62,5 +60,5 @@ public class HomeWork {
 		System.out.println("Pair of numbers of exercise " + ExerciseNumber + " are: " + Number1 + " and " + Number2);
 		return str;
 	}
-	
+
 }
