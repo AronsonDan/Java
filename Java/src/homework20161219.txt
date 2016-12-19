@@ -1,0 +1,10 @@
+Write an app which provides for a simple math training.
+The app should have a constant for the max value it will use in its exercise (e.g. 20).
+The app will produce "math exercises" built of a random number, within the defined max value, a single operation and a second random number within max value (e.g. "5 + 19").
+An operation can only be one of plus, minus and multiply.
+Once started, the app will loop over the following steps:
+1. Showing the user an exercise (e.g. "5 x 11 =")
+2. Getting the user numeric answer
+3. Printing "correct" if the answer is correct, or "incorrect" and the right answer, if answer was not correct.
+The loop ends when the user enters any non-numeric value.
+Note: Pay attention to proper use of functions. Make sure you break overall functionality to small, focused functions.
