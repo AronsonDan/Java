@@ -71,7 +71,6 @@ public class ExerciseThree {
 		// System.out.println("createArrayOfIntegers function has been
 		// invoked");
 		int[] returnArray = new int[intArray.length - 1];
-
 		for (int i = 0; i < returnArray.length; i++) {
 			if (i < indexToRemove) {
 				returnArray[i] = intArray[i];
