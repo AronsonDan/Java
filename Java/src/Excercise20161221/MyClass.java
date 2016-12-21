@@ -1,17 +1,21 @@
 package Excercise20161221;
 
-import org.junit.experimental.theories.Theories;
-
 public class MyClass {
 
 	// define the class constants
-	public static final String HELLOSTRING = Messages.getString("MyClass.0"); //$NON-NLS-1$
+	public static final String HELLO_STRING = Messages.getString("MyClass.0"); //$NON-NLS-1$
 	
 	// define the class members
 	private int firstValue;
 	private int secondValue;
 	private int thirdValue;
 	private int fourthValue;
+
+	@Override
+	public String toString() {
+		return "MyClass [firstValue=" + firstValue + ", secondValue=" + secondValue + ", thirdValue=" + thirdValue
+				+ ", fourthValue=" + fourthValue + ", toString()=" + super.toString() + "]";
+	}
 
 	public MyClass(int firstValue) {
 		this.setFirstValue(firstValue);
@@ -99,7 +103,7 @@ public class MyClass {
 	}
 	
 	public void printMyClass() {
-		System.out.println(MyClass.HELLOSTRING);
+		System.out.println(MyClass.HELLO_STRING);
 		System.out.println("First value is: " + this.getFirstValue());
 		System.out.println("Second value is: " + this.getSecondValue());
 		System.out.println("Third value is: " + this.getSecondValue());
