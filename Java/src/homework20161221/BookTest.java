@@ -7,11 +7,10 @@ import org.junit.Test;
 
 public class BookTest {
 	Book b;
-	
-	
+
 	@Before
 	public void setUp() throws Exception {
-		
+
 	}
 
 	@Test
