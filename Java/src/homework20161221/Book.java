@@ -15,15 +15,25 @@ public class Book {
 	 * @throws IOException
 	 */
 	public Book(String name, double price, String[] authorNames) throws IOException {
+
 		this.setName(name);
 		this.setPrice(price);
 		addAuthor(authorNames);
 	}
 
 	/**
+	 * 
+	 */
+	public Book() {
+	    super();
+	    // TODO Auto-generated constructor stub
+	}
+
+	/**
 	 * @return the authorNames
 	 */
 	public String[] getAuthorNames() {
+
 		return authorNames;
 	}
 
@@ -31,6 +41,7 @@ public class Book {
 	 * @return the price
 	 */
 	public double getPrice() {
+
 		return price;
 	}
 
