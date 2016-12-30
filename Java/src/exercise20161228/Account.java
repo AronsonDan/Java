@@ -37,7 +37,9 @@ public class Account {
 	this.balance = balance;
     }
 
-    /* (non-Javadoc)
+    /*
+     * (non-Javadoc)
+     * 
      * @see java.lang.Object#toString()
      */
     @Override
