@@ -7,7 +7,7 @@ package homework20161228;
  * @author Dan Aronson
  *
  */
-public abstract class Animal implements Comparable{
+public abstract class Animal implements Comparable<Object>{
 
     // private fields
     protected String name;
