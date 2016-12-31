@@ -44,4 +44,8 @@ public class Cat extends Animal {
 	return "Cat: " + super.toString();
     }
 
+    /* (non-Javadoc)
+     * @see java.lang.Comparable#compareTo(java.lang.Object)
+     */
+
 }

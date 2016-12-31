@@ -7,7 +7,7 @@ package homework20161228;
  * @author Dan Aronson
  *
  */
-public abstract class Animal {
+public abstract class Animal implements Comparable{
 
     // private fields
     protected String name;
@@ -68,6 +68,17 @@ public abstract class Animal {
     @Override
     public String toString() {
 	return String.format("Animal [name=%s, age=%s]", this.name, this.age);
+    }
+
+
+/* (non-Javadoc)
+ * @see java.lang.Comparable#compareTo(java.lang.Object)
+ */
+    @Override
+    public int compareTo(Object o) {
+        // TODO Auto-generated method stub
+        Animal a = (Animal) o;
+	return a.getAge() - this.getAge();
     }
 
 }
