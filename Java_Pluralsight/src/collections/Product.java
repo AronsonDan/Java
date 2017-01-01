@@ -51,4 +51,14 @@ public class Product {
 	this.weight = weight;
     }
 
+    /*
+     * (non-Javadoc)
+     * 
+     * @see java.lang.Object#toString()
+     */
+    @Override
+    public String toString() {
+	return String.format("Product [name=%s, weight=%s]", this.name, this.weight);
+    }
+
 }
