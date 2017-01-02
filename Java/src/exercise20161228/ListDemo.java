@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class ListDemo {
     public static void main(String[] args) {
 
-	ArrayList myList = new ArrayList<>();
+	ArrayList<Object> myList = new ArrayList<>();
 
 	Student d = new Student();
 	Subject s = new Subject();

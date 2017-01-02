@@ -12,7 +12,7 @@ public class Customer {
     public final String name;
 
     public static final Customer jack = new Customer("Jack");
-    public static final Customer jill  = new Customer("Jill");
+    public static final Customer jill = new Customer("Jill");
     public static final Customer mary = new Customer("Mary");
 
     /**
@@ -28,6 +28,8 @@ public class Customer {
     public String getName() {
 	return this.name;
     }
-    
-    public void reply(final String message)	{System.out.println("Reply: " + message);}
+
+    public void reply(final String message) {
+	System.out.println("Reply: " + message);
+    }
 }
