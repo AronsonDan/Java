@@ -35,6 +35,7 @@ public class Main {
 
 	
 	school.printAll();
+	school.printAllWithIterator();
 
     }
 
